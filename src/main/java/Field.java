@@ -1,5 +1,3 @@
-package battleship;
-
 enum Fieldtype {
     FOG ('~', "the fog of war"),
     SHIP ('O', "a cell with your ship"),

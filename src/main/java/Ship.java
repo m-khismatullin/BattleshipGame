@@ -1,5 +1,3 @@
-package battleship;
-
 enum Shiptype {
     CARRIER(5, "Aircraft Carrier"),
     BATTLESHIP(4, "Battleship"),

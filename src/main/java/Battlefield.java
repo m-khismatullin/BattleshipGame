@@ -1,5 +1,3 @@
-package battleship;
-
 import java.util.Objects;
 
 enum PositionEventTypes {
