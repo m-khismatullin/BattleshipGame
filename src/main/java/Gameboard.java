@@ -1,3 +1,6 @@
+/**
+ * Собственно игровое пространство
+ */
 public class Gameboard {
     private Battlefield upperBattlefield;
     private Battlefield lowerBattlefield;

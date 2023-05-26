@@ -1,3 +1,6 @@
+/**
+ * Перечисление для типа поля
+ */
 enum Fieldtype {
     FOG ('~', "the fog of war"),
     SHIP ('O', "a cell with your ship"),
@@ -17,6 +20,9 @@ enum Fieldtype {
     }
 }
 
+/**
+ * Ячейка игрового поля
+ */
 public class Field {
     private Fieldtype fieldType;
     private int row;

@@ -1,6 +1,9 @@
 import java.util.Objects;
 import java.util.Scanner;
 
+/**
+ * Класс для запуска
+ */
 public class BattleshipGame {
     public static void main(String[] args) {
         // размещаемые корабли

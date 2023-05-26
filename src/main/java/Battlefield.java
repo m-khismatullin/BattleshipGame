@@ -1,5 +1,8 @@
 import java.util.Objects;
 
+/**
+ * Перечисление типов событий при позиционировании
+ */
 enum PositionEventTypes {
     PLACEMENT("ship placement","Error! Wrong ship location! Try again:"),
     SHOOTING("shooting", "Error! You entered the wrong coordinates! Try again:");
@@ -21,6 +24,9 @@ enum PositionEventTypes {
     }
 }
 
+/**
+ * Перечисление типов результатов выстрела
+ */
 enum ShotResultTypes {
     MISS(false, "You missed!"),
     HIT(false, "You hit a ship!"),
@@ -45,12 +51,18 @@ enum ShotResultTypes {
 
 }
 
+/**
+ * Перечисление режимов отображения поля игрока
+ */
 enum BattlefieldViewRegime {
     FOG,
     ALIEN,
     MY
 }
 
+/**
+ * Поле игрока
+ */
 public class Battlefield {
     private Field[][] fields;
     private Ship[] ships;

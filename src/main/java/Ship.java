@@ -1,3 +1,6 @@
+/**
+ * Перечисление для типов судов
+ */
 enum Shiptype {
     CARRIER(5, "Aircraft Carrier"),
     BATTLESHIP(4, "Battleship"),
@@ -22,6 +25,9 @@ enum Shiptype {
     }
 }
 
+/**
+ * Корабль
+ */
 public class Ship {
     private Shiptype shiptype;
     private Field[] fields;
