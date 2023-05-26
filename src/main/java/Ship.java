@@ -28,7 +28,7 @@ enum Shiptype {
 }
 
 /**
- * Класс для сущности "корабль"
+ * Класс для сущности "корабль"...
  */
 public class Ship {
     private Shiptype shiptype;
